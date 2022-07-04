@@ -1,0 +1,29 @@
+.Product-style{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: 1px solid gray;
+  
+}
+.img-detail{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: ;
+}
+.img-style{
+    margin: 5px 5%;
+    display: grid;
+    align-items: center;
+    
+    
+}
+.img-style img{
+    /* width: 100%; */
+   
+}
+.product-detail{
+    /* margin: 5%; */
+}
+.rating-detail{
+   display: grid;
+   align-items: center;
+}

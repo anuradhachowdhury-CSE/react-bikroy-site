@@ -1,0 +1,41 @@
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  background-color: rgb(65, 65, 241);
+  line-height: 5;
+  border-bottom: 5px solid gray;
+}
+.header .awesome{
+   color:white;
+   margin:5px;
+   padding: 5px;
+
+
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    margin: 3%;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.two-part img{
+    width:98%
+}
+.two-part{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height:100vh;
+   /* margin-bottom: 50px; */
+   background-color: rgb(171, 238, 238);
+  
+}
+.two-part .written{
+    background-color: bisque;
+    margin: 3%;
+    padding-right: 2%;
+    overflow-y: scroll;
+
+}
